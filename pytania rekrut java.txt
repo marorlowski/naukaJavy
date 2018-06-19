@@ -1,0 +1,69 @@
+5 Testy 
+? Co to jest mock? 
+Atrapa obiektu?(ang.?mock object) ? symulowany obiekt, kt?ry w kontrolowany spos?b na?laduje zachowanie rzeczywistego obiektu. 
+Programista tworzy zazwyczaj atrapy obiekt?w w celu przetestowania zachowania jakiego? innego obiektu,
+ podobnie jak projektanci samochod?w wykorzystuj? manekiny do?symulacji?dynamiki zachowania ludzkiego cia?a podczas zderzenia pojazd?w. 
+
+? Co to jest TDD? 
+est-driven development?(TDD) ? technika tworzenia?oprogramowania, zaliczana do?metodyk zwinnych. Pierwotnie by?a cz?ci??programowania ekstremalnego
+?(ang.?extreme programming), lecz obecnie stanowi samodzieln? technik?. Polega na wielokrotnym powtarzaniu kilku krok?w:
+    1. Najpierw programista pisze automatyczny test sprawdzaj?cy dodawan? funkcjonalno??. Test w tym momencie nie powinien si? uda?.
+    2. P?niej nast?puje implementacja funkcjonalno?ci. W tym momencie wcze?niej napisany test powinien si? uda?.
+    3. W ostatnim kroku programista dokonuje?refaktoryzacji?napisanego kodu, ?eby spe?nia? on oczekiwane standardy.
+Technika zosta?a stworzona przez?Kenta Becka. Mo?na jej te? u?ywa? do poprawiania istniej?cego kodu.
+Programowanie technik? test-driven development
+Programowanie technik? test-driven development wyr?nia si? tym, ?e najpierw programista zaczyna od pisania test?w do funkcji, 
+kt?ra jeszcze nie zosta?a napisana. Na pocz?tku testy mog? nawet si? nie kompilowa?, poniewa? mo?e nie by? jeszcze element?w kodu (metod, klas), 
+kt?re s? w testach u?yte.
+Na pocz?tku zaczyna si? od przypadku, kt?ry nie przechodzi testu ? zapewnia to, ?e test na pewno dzia?a i mo?e wy?apa? b??dy.
+
+
+? Jakie znasz poziomy test?w? 
+
+    ? Unit testing
+    ? Integration tesing ?
+    ? System testing
+    ? User acceptance testing.
+
+    ? Poziom test?w modu?owych (jednostkowych)
+    ? Poziom test?w integracyjnych
+    ? Poziom test?w systemowych
+    ? Poziom test?w akceptacyjnych
+
+0.6 Programowanie obiektowe
+? Czy klasa mo?e dziedziczy? po kilku interfejsach? 
+? Czym si? r?ni klasa abstrakcyjna od interfejsu?  
+? Jak wywo?a? metod? w klasie podrz?dnej z klasy nadrz?dnej?
+
+0.7 Architektura
+? Co to jest leniwe (lazy loading) i zach?anne ?adowanie danych (eager loading)? 
+? Na czym polega problem n+1 zapytan??
+? Co to jest rekurencja?
+? O czym m?wi ?a zasady SOLID?
+? Co to jest ci ?ag?a integracja (Continuous Integration)?
+? Jakie znasz wzorce projektowe? 0.8 Java
+? Co to s ?a typy proste i referencyjne?
+? Co to jest Autoboxing and Unboxing?
+? Co to s ?a obiekty immutable?
+? Co to jest serializacja?
+? Co to jest refleksja?
+? Czym r?zni ?a si?e wyj ?atki oznaczone ( ? checked) od nieoznaczonych (unchecked exceptions)?
+? Co to jest enum?
+? Jak pobrac pojedynczy znak z obiektu String? ?
+? Na czym polega kontrakt mi?edzy metodami hashCode i equals?
+? Czym si?e r?zni lista (List) od zbioru (Set)? ?
+? Na czym polega mechanizm konkatenacji stringa?
+? Co to jest w ?atek (thread)?
+
+0.9 SQL
+? Wymien znane Ci typy danych w bazie danych ?
+? Co to jest sekwencja?
+? Co to jest indeks w bazach danych?
+? Jakie s ?a wady i zalety stosowania indeks?w? 4
+? Jakie znasz funkcje agreguj ?ace i co to jest?
+? Jakie s ?a rodzaje z? ?aczen?? ? Co to jest bulk insert?
+? Co to jest trigger? ? Co to jest transakcja?
+? Co to jest widok bazodanowy i dlaczego warto z niego korzystac??
+? Jaka jest r?znica mi?edzy klauzul ?a WHERE, a HAVING? ?
+? Czym r?zni si?e operacja UNION od UNION ALL? ?
+? Na czym polega stronicowanie rekord?w?
