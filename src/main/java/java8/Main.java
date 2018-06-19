@@ -83,5 +83,12 @@ public class Main {
 
         System.out.println(emp.getName()+" "+emp.getSalary());
 
+//        val task = new HelloTask();
+//        val thread = new Thread(task);
+//        thread.start();
+
+
+        Runnable task = ()->{for (int i=0; i<10; i++)System.out.println("RUN");};
+        task.run();
     }
 }
