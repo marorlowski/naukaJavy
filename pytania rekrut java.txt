@@ -31,9 +31,15 @@ Na pocz?tku zaczyna si? od przypadku, kt?ry nie przechodzi testu ? zapewnia to, 
     ? Poziom test?w akceptacyjnych
 
 0.6 Programowanie obiektowe
-? Czy klasa mo?e dziedziczy? po kilku interfejsach? 
-? Czym si? r?ni klasa abstrakcyjna od interfejsu?  
-? Jak wywo?a? metod? w klasie podrz?dnej z klasy nadrz?dnej?
+? Czy klasa mo¿e dziedziczyæ po kilku interfejsach?
+    -> Mo¿e.
+
+? Czym siê róni klasa abstrakcyjna od interfejsu?
+    -> Klasa abstrakcyjna moze mie c zdefiniowane pola i implementacjê metod;
+
+? Jak wywo³aæ metodê w klasie podrzêdnej z klasy nadrzêdnej?
+    -> Przy pomocy s³owa kluczowego super();
+
 
 0.7 Architektura
 ? Co to jest leniwe (lazy loading) i zach?anne ?adowanie danych (eager loading)? 

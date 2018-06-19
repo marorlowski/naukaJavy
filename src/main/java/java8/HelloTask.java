@@ -1,6 +1,8 @@
 package java8;
 
-public class HelloTask implements Runnable {
+import java8.Interface.InterfaceTest;
+
+public class HelloTask implements Runnable, InterfaceTest {
 
     @Override
     public void run() {
@@ -9,4 +11,8 @@ public class HelloTask implements Runnable {
         }
     }
 
+    @Override
+    public String name() {
+        return null;
+    }
 }
