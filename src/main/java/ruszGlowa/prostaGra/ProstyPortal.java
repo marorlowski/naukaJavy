@@ -5,24 +5,29 @@ import lombok.Data;
 //@Data
 public class ProstyPortal {
 
-    int[] polaPolozenia = new int[7];
-    int iloscTrafien;
+    int[] polaPolozenia;
+    int iloscTrafien=1;
 
 
     public String sprawdz(String podanePole) {
-        int pole = Integer.parseInt(podanePole);
-        String wynik = "";
+        int strzal = Integer.parseInt(podanePole);
+        String wynik = "pudło";
 
-        for (int i = 0; i < 7; i++) {
-            if (polaPolozenia[i] == pole) {
-
+        for (int pole : polaPolozenia) {
+            if (strzal == pole) {
+                wynik = "trafiony";
+                iloscTrafien++;
+                break;
             }
         }
 
+        if (iloscTrafien==polaPolozenia.length){
+            wynik ="zatopiony";
+        }
+
+        System.out.println(wynik);
         return wynik;
     }
-
-    ;
 
     public void setPolaPolozenia(int[] polaPolozenia) {
         this.polaPolozenia = polaPolozenia;

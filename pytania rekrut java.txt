@@ -48,10 +48,15 @@ Ujmuj¹c to w innych s³owach, obiekt ³adujemy na ¿¹danie, zamiast niepotrzebnego,
 
 ? Na czym polega problem n+1 zapytañ?
 ? Co to jest rekurencja?
-? O czym mówi ?a zasady SOLID?
-? Co to jest ci ?ag?a integracja (Continuous Integration)?
-? Jakie znasz wzorce projektowe? 0.8 Java
+? O czym mówi¹ zasady SOLID?
+? Co to jest ci¹g³a integracja (Continuous Integration)?
+? Jakie znasz wzorce projektowe?
+
+0.8 Java
 ? Co to s¹ typy proste i referencyjne?
+Typy proste to int, boolean, char itp. a typy referencyjne to typy utworzone z obiektów, wskaŸniki na obiekt. Obiekt x = new Obiekt();
+Obiekt y = x. Obietk y jest referencj¹ na obiekt x.
+
 ? Co to jest Autoboxing and Unboxing?
 ? Co to s¹ obiekty immutable?
 ? Co to jest serializacja?
