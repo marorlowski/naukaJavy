@@ -45,12 +45,16 @@ Na pocz?tku zaczyna si? od przypadku, kt?ry nie przechodzi testu ? zapewnia to, 
 ? Co to jest leniwe (lazy loading) i zach³anne ³adowanie danych (eager loading)?
 Lady loading jest pojêciem polegaj¹cym na opóŸnieniu ³adowania obiektu, a¿ do punktu w którym tych danych potrzebujemy.
 Ujmuj¹c to w innych s³owach, obiekt ³adujemy na ¿¹danie, zamiast niepotrzebnego, wczeœniejszego ³adowania danych.
+- w¹tki?
+
 
 ? Na czym polega problem n+1 zapytañ?
 ? Co to jest rekurencja?
 ? O czym mówi¹ zasady SOLID?
 ? Co to jest ci¹g³a integracja (Continuous Integration)?
 ? Jakie znasz wzorce projektowe?
+-GIT - flow?
+-SCRUM??
 
 0.8 Java
 ? Co to s¹ typy proste i referencyjne?
@@ -82,3 +86,7 @@ Obiekt y = x. Obietk y jest referencj¹ na obiekt x.
 ? Jaka jest r?znica mi?edzy klauzul ?a WHERE, a HAVING? ?
 ? Czym r?zni siê operacja UNION od UNION ALL? ?
 ? Na czym polega stronicowanie rekord?w?
+
+10 HTML
+-ró¿nice miêdzy padding i margin, miêdzy span a div a p
+-jak dzia³a ceshowanie, tagi
